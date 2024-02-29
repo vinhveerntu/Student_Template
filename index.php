@@ -15,7 +15,7 @@
                 <h3>Danh sách sinh viên</h3>
             </div>
             <div class="col-md-6">
-                <a class="btn btn-primary float-end" href="">Thêm sinh viên mới</a>
+                <a class="btn btn-primary float-end" href="create.php">Thêm sinh viên mới</a>
             </div>
         </div>
     </div>
@@ -35,7 +35,7 @@
                 <td>30/07/2004</td>
                 <td class="float-end">
                     <a href="info.php" class="btn btn-success">Thông tin chi tiết</a>
-                    <button class="btn btn-secondary">Sửa đổi thông tin</button>
+                    <a class="btn btn-secondary" href="update.php">Sửa đổi thông tin</a>
                     <button class="btn btn-danger">Xóa thông tin</button>
                 </td>
             </tbody>

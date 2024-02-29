@@ -23,7 +23,7 @@
         </div>
     </div>
     <div class="container mt-4">
-        <h3>Thêm sinh viên mới</h3>
+        <h3>Thay đổi thông tin sinh viên</h3>
     </div>
     <div class="container mt-4">
         <div class="mb-3">
@@ -53,6 +53,10 @@
         <div class="mb-3">
             <label for="phone" class="form-label">Số điện thoại</label>
             <input type="text" class="form-control" id="phone" name="phone">
+        </div>
+        <div class="mb-3">
+            <label for="file_img" class="form-label">Tải lên ảnh chân dung (Nếu muốn thay đổi)</label>
+            <input type="file" class="form-control" id="file_img" name="file_img">
         </div>
     </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
